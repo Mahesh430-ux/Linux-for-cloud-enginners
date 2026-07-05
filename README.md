@@ -13,63 +13,146 @@ Operating System (Linux)
    ↓
 Hardware
 
-
 * Why  cloud enginners learn linux :-
+
 1) AWS EC2 mostly run
 on Linux
-2) Azure virtual machines run on Linux 
+2) Azure virtual machines run on Linux
 3) Google cloud VMs run Linux
-4) Docker containers mostly run on Linux 
-5) Kubernetes is built around Linux 
-
-
+4) Docker containers mostly run on Linux
+5) Kubernetes is built around Linux :
 
 * starts with the basic commands that is essential for cloud enginners :-
 
-* Day 1 :-  linux basics :- 
-
+* Day 1 :-  linux basics :-
 
 1) How to check the current working directory :-
 ans :- pwd (print working directory)  
 
-2) How to display name of the current logged in user 
-ans :- whoami 
+2) How to display name of the current logged in user
+ans :- whoami
 
-3) How to check System date and time 
-ans :- date + % T 
+3) How to check System date and time
+ans :- date + % T
 
-4) How to display files and directory present in the current location 
+4) How to display files and directory present in the current location
 ans :- ls
 
-5) How to clear linux terminal 
+5) How to clear linux terminal
 ans :- Clear or ( ctrl + c  )
 
-6) How to display content of  a file on terminal 
+6) How to display content of  a file on terminal
 ans :- cat <file name>
 
-7) How to read a file and search for a word 
+7) How to read a file and search for a word
 ans :- less <file name >
 
-8) How to view content of a file page by page 
+8) How to view content of a file page by page
 ans :- more <file name >
 
-9) How to create a directory in a linux 
+9) How to create a directory in a linux
 ans :- mkdir <directory  name>
 
-10) How to create a file in a linux 
+10) How to create a file in a linux
 ans :-  touch <file name >
 
-11) How to delete a folder  in a linux :- 
+11) How to delete a folder  in a linux :-
 ans :- rm -r <folder name>
 
 12) How to edit a file in a Linux  
 ans :- vi <file name >
 
-13) How to delete a directory in a Linux 
+13) How to delete a directory in a Linux
 ans :- rmdir <directory name >
 
-14) How to copy and paste a file from one folder to another in linux 
+14) How to copy and paste a file from one folder to another in linux
 ans :- cp <file name > <file name>
 
 15) How to change path in Linux  
 ans :- cd ..
+
+Day 2 :- "LINUX PART 2" :-
+
+1) How to display the manual of any Linux command
+ans :-man <command>
+
+Example:
+man ls
+
+1) How to display the help menu of any command
+
+ans :- `<command> --help`
+
+Example:-
+ls --help
+
+1) How to print text on the terminal
+
+ans :- `echo "text"`
+
+Example:
+echo "Hello Linux"
+
+1) How to display previously executed commands
+
+ans :- history
+
+1) How to find the location of a command
+
+ans :-which <command>
+
+Example:
+which python3
+
+1) How to check disk space usage
+
+ans :- df -h
+
+1) How to check the size of a directory
+ans :-du -sh <directory name>
+
+Example:-
+du -sh Documents
+
+1) How to check memory (RAM) usage
+
+ans :- free -h
+
+1) How to display all running processes
+
+ans :- ps -ef
+
+ 1) How to monitor system processes in real time
+
+ans :- top
+
+ 1) How to find a file in Linux
+
+ans :-find <path> -name "<file name>"
+
+Example:
+find . -name "notes.txt"
+
+1) How to search for a word inside a file
+
+ans :- grep <word> <file name>
+
+Example:
+grep "Linux" notes.txt
+
+1) How to move or rename a file in Linux
+ans :- mv < source> <destination >
+
+Example:
+mv file.txt Documents/
+
+Rename Example:-
+mv file.txt linux_notes.txt
+
+1) How to check the IP address of your system
+
+ans :-ip addr
+
+1) How to test network connectivity
+
+ans :- ping < website or IP address >
