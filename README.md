@@ -156,3 +156,50 @@ ans :-ip addr
 1) How to test network connectivity
 
 ans :- ping < website or IP address >
+
+Day 3 :-  ADVANCED TOPICS  
+
+1) How to change file permissions :-
+ans :- chmod permissions filename
+
+2) How to change the owner of a file or directory :-
+ans :- chown username filename
+
+3) How to search for a file or directory :-
+ans :- find /path -name filename
+
+4) How to locate a file quickly :-
+ans :- locate filename
+
+5) How to display disk space usage of file systems :-
+ans :- df -h
+
+6) How to check the size of a file or directory :-
+ans :- du -sh filename
+
+7) How to display currently running processes :-
+ans :- ps -ef
+
+8) How to monitor system processes in real time :-
+ans :- top
+
+9) How to terminate a running process :-
+ans :- kill process_id
+
+10) How to forcefully terminate a running process :-
+ans :- kill -9 process_id
+
+11) How to check the IP address of the system :-
+ans :- ip addr show
+
+12) How to test network connectivity to another host :-
+ans :- ping hostname
+
+13) How to display active network connections and listening ports :-
+ans :- ss -tuln
+
+14) How to display the routing table :-
+ans :- ip route
+
+15) How to display network interface information :-
+ans :- ip link show
