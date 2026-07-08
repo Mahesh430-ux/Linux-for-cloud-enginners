@@ -203,3 +203,81 @@ ans :- ip route
 
 15) How to display network interface information :-
 ans :- ip link show
+
+Day 4 :-
+
+1) How to find files by name
+ans :-
+find / -name filename
+
+Example:
+find /home -name test.txt
+
+1) How to find files by extension
+ans :-
+find . -name "*.txt"
+
+Example:
+find . -name "*.log"
+3) How to search for text inside files
+ans :-
+grep "text" filename
+
+Example:
+grep "root" /etc/passwd
+
+1) How to search text recursively in directories
+ans :-
+grep -r "text" directory
+
+Example:
+grep -r "password" /etc
+
+1) How to display the first 10 lines of a file
+ans :-
+head filename
+
+Example:
+head /etc/passwd
+
+1) How to display the last 10 lines of a file
+ans :-
+tail filename
+
+Example:
+tail /var/log/messages
+
+1) How to monitor a log file in real time
+ans :-
+tail -f filename
+
+Example:
+tail -f /var/log/messages
+
+1) How to count words, lines, and characters in a file
+ans :-
+wc filename
+
+Example:
+wc notes.txt
+
+1) How to compare two files
+ans :-
+diff file1 file2
+
+Example:
+diff old.txt new.txt
+
+1) How to sort the contents of a file
+ans :-
+sort filename
+
+Example:
+sort names.txt
+
+1) How to remove duplicate lines from a sorted file
+ans :-
+uniq filename
+
+Example:
+uniq names.txt
