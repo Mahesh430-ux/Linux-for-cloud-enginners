@@ -281,3 +281,50 @@ uniq filename
 
 Example:
 uniq names.txt
+
+* DAY 5 :-
+
+1) How to view all mounted file systems
+ans :- mount
+
+2) How to check disk usage of mounted file systems
+ans :- df -h
+
+3) How to display disk usage of a specific directory
+ans :- du -sh /path/to/directory
+
+4) How to create a compressed tar archive
+ans :- tar -czvf backup.tar.gz folder_name
+
+5) How to extract a tar.gz archive
+ans :- tar -xzvf backup.tar.gz
+
+6) How to download a file from the internet
+ans :- wget URL
+
+7) How to download files using curl
+ans :- curl -O URL
+
+8) How to display the IP routing table
+ans :- ip route
+
+9) How to display all listening network ports
+ans :- ss -tuln
+
+10) How to test network connectivity to another server
+ans :- ping google.com
+
+11) How to check DNS resolution
+ans :- nslookup google.com
+
+12) How to display current environment variables
+ans :- printenv
+
+13) How to temporarily set an environment variable
+ans :- export VARIABLE_NAME=value
+
+14) How to view command history with line numbers
+ans :- history
+
+15) How to execute a command from history
+ans :- !number
