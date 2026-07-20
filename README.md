@@ -328,3 +328,64 @@ ans :- history
 
 15) How to execute a command from history
 ans :- !number
+
+
+
+
+
+FIRST OFF ALL SORRY FOR BEING INCONSTITENT BECAUSE I AM WORKING ON ANOTHER PROJECT :-
+
+DAY 6 :-Linux File Permissions (Questions & Answers)
+
+1. What command is used to view file permissions?
+ls -l
+
+2. What does `ls -l` display?
+It displays the file type, permissions, owner, group, file size, date, and file name.
+Example:
+-rwxr-xr-- 1 ubuntu ubuntu 1024 Jul 20 script.sh
+
+3. What does `r` mean?
+`r` means Read permission.
+
+4. What does `w` mean
+`w` means Write permission.
+
+ 5. What does `x` mean?
+`x` means Execute permission.
+
+6. What does `-` mean?
+`-` means No permission.
+
+7. What does `d` at the beginning of a permission mean?
+It indicates that the item is a directory.
+Example:
+drwxr-xr-x
+
+8. What are the three permission groups?
+
+* Owner (User)
+* Group
+* Others
+
+9. What command makes a file executable?
+chmod +x script.sh
+
+10. What command removes execute permission?
+chmod -x script.sh
+
+11. What command adds write permission?
+chmod +w file.txt
+
+12. What command removes write permission?
+chmod -w file.txt
+
+13. What command gives full permissions to everyone?
+chmod 777 file.txt
+
+14. What command gives the owner full permissions and others read and execute permissions?
+chmod 755 script.sh
+
+15. What command gives the owner read and write permissions and others read-only permission?
+chmod 644 file.txt
+
